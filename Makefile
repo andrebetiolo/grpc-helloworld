@@ -25,8 +25,8 @@ proto-generate:: ## Command for generate the pb.go files
 		--go-grpc_opt=paths=source_relative \
 		$(protosFolder)
 
-run-server:: ## Run go Application with watcher
+run-server:: ## Run the server gRPC
 	@ go run server/main.go
 
-run-client:: ## Run go Application with watcher
+run-client:: ## Run the client gRPC
 	@ go run client/main.go

@@ -17,12 +17,12 @@ make
 ```
 
 ```sh
-docs-generate         # Command for generate the docs of grpc files
-docs-open             # Open documentation
-help                  # Show this help
-proto-generate        # Command for generate the pb.go files
-run-client            # Run go Application with watcher
-run-server            # Run go Application with watcher
+docs-generate                  Command for generate the docs of grpc files
+docs-open                      Open documentation
+help                           Show this help
+proto-generate                 Command for generate the pb.go files
+run-client                     Run the client gRPC
+run-server                     Run the server gRPC
 ```
 
 Pastas
