@@ -1,5 +1,5 @@
 # Load enviroment variables
-include .env
+# include .env
 
 # Export enviroment variables to commands
 export
